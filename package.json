@@ -1,0 +1,27 @@
+{
+  "name": "typescript-scaffold",
+  "version": "1.0.0",
+  "description": "scaffolding nodejs app n typescript",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "dev": "ts-node-dev --transpile-only --no-notify src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inneroot/typescript-scaffold.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inneroot/typescript-scaffold/issues"
+  },
+  "homepage": "https://github.com/inneroot/typescript-scaffold#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7"
+  }
+}
